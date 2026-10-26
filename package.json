@@ -1,0 +1,20 @@
+{
+  "name": "trainee-attendance-system-html",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone HTML, CSS and JavaScript trainee attendance system for GitHub Pages.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "vitest run",
+    "check": "node --check assets/data.js && node --check assets/app.js && npm test"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/user-event": "^14.6.8",
+    "fake-indexeddb": "^6.2.6",
+    "jsdom": "^26.0.0",
+    "vitest": "^3.2.0"
+  }
+}
